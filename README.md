@@ -11,4 +11,6 @@ Class Cifar (contained in cifar.py) is instantiated passing a config file (with 
 
 Class OcrData (contained in data.py) is instantiated passing a config file (with all the parameters) to the constructor. Specifically ocr-config.py and text-config.py are both used in two different contextes. The first one is called to perform the machine learning pipeline on character images. The second one is called only once inside the merge-with-cifar method inside OcrData class in order to build the dataset to perform the text/no-text classification.
 
+The results are not above benchmark, but its a successful implementation of machine learning pipeline.
+
 
